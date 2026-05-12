@@ -20,7 +20,7 @@ class LogEntry(Base):
     status = Column(Integer)
     size = Column(Integer)
 
-engine = create_engine("postgresql://postgres:mysecretpassword@localhost:5432/log_db")
+engine = create_engine("sqlite:///./app.db")
 SessionLocal = sessionmaker(bind=engine)
 
 def init_db():
