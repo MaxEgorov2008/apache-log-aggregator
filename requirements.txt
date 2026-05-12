@@ -3,5 +3,5 @@ uvicorn
 sqlalchemy
 pyyaml
 passlib[bcrypt]
-python-jose[cryptography]
 python-multipart
+psycopg2-binary
