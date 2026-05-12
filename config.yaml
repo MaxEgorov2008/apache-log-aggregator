@@ -1,0 +1,8 @@
+app:
+  log_directory: "./logs"
+  log_mask: "*.log"
+  db_url: "sqlite:///./app.db"
+auth:
+  secret_key: "my_super_secret"
+  admin_user: "admin"
+  admin_pass: "admin123"
