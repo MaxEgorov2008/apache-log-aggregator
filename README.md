@@ -2,7 +2,7 @@ Apache Log Aggregator
 
 Приложение для сбора и анализа логов веб-сервера Apache. Позволяет парсить текстовые логи, сохранять их в БД и просматривать через веб-интерфейс с фильтрацией.
 
-🛠 Стек технологий
+-- Стек технологий --
 
 Backend: Python 3.10+, FastAPI, SQLAlchemy.
 
@@ -10,27 +10,23 @@ Database: SQLite (по умолчанию) / PostgreSQL.
 
 Frontend: HTML5, Bootstrap 5, JavaScript (AJAX/XHR).
 
-📋 Требования
+-- Требования --
 
 Установите необходимые библиотеки:
 
-Bash
-
 pip install fastapi uvicorn sqlalchemy pyyaml passlib python-multipart
 
-🚀 Запуск приложения
+-- Запуск приложения --
 
 Настройка: В файле config.yaml укажите путь к папке с логами.
 
 Запуск сервера:
 
-Bash
-
 uvicorn main:app --reload
 
 Доступ: Откройте в браузере http://127.0.0.1:8000
 
-🕹 Инструкция по работе
+-- Инструкция по работе --
 
 Вход: Используйте логин admin и пароль admin123.
 
@@ -40,7 +36,7 @@ uvicorn main:app --reload
 
 Консоль: Для просмотра через терминал запустите python console_view.py.
 
-📂 Структура файлов
+-- Структура файлов --
 
 main.py — сервер и API.
 
