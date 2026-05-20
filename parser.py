@@ -5,7 +5,6 @@ import yaml
 from datetime import datetime
 from database import SessionLocal, LogEntry
 
-# Регулярное выражение для формата Apache Combined
 LOG_PATTERN = r'^(\S+) \S+ \S+ \[([\w:/]+\s[+\-]\d{4})\] "(\S+)\s?(\S+)?\s?(\S+)?" (\d{3}|-) (\d+|-)$'
 
 
